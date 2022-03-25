@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pokedex.css">
+    <title>Pokedex</title>
+</head> 
+<body>
+<div class="pokedex">
+    <div class="izquierda">
+    <div class="logo"></div>
+    <div class="bg_curve1_izquierda"></div>
+    <div class="bg_curve2_izquierda"></div>
+    <div class="curve1_izquierda">
+        <div class="buttonGlass">
+        <div class="reflect"> </div>
+        </div>
+        <div class="miniButtonGlass1"></div>
+        <div class="miniButtonGlass2"></div>
+        <div class="miniButtonGlass3"></div>       
+    </div>
+    <div class="curve2_izquierda">
+        <div class="union">
+        <div class="union1"></div>
+        <div class="union2"></div> 
+        </div>
+    </div>
+    <div class="screen">
+        <div class="topPicture">
+        <div class="buttontopPicture1"></div>
+        <div class="buttontopPicture2"></div>
+        </div>
+        <div class="picture">
+            <img src="img/pokeball.png" alt="Pokemon" id="pokeImg" width="170px"> 
+        </div>
+        <div class="buttonbottomPicture"></div>
+        <div class="speakers">
+            <div class="sp"></div>
+        <div class="sp"></div>
+        <div class="sp"></div>
+        <div class="sp"></div>
+        </div>
+    </div>
+    <div class="botonsote">
+        <button onclick="fetchPokemon()" id="botonsote"></button>
+    </div>
+    <div class="barbutton1"></div>
+    <div class="barbutton2"></div>
+    <div class="cross">
+    <div ><button onclick="prevPokemon()" id="anterior"></button>
+        <div class="leftT"></div>
+    </div>
+        <div class="topcross">
+        <div class="upT"></div>
+        </div>
+        <div><button onclick="nextPokemon()" id="siguiente"></button>       
+        <div class="derechaT"> </div>
+    </div>
+        <div class="midcross">
+        <div class="midCircle"></div>
+        </div>
+        <div class="botcross">
+        <div class="downT"></div>
+        </div>
+    </div class="pokeName1">
+    <input type="text" placeholder="Buscar Pokemon" id="pokeName" name="pokeName" class="pokeName1"> 
+    </div>
+    <div class="derecha">
+        <div class="nombre"> 
+            <span id="name"></span>
+        </div>
+    <div class="stats"> 
+        <div class="stats0">
+            <span id="habilidad"> </span>  <br>
+            <span id="move"> </span> 
+        </div>
+        
+        <div class="stats1"> 
+            <span id="vida"> </span>  <br>    
+            <span id="Ataque"> </span>   <br>
+            <span id="Defensa"> </span>   <br>
+        </div>
+        <div class="stats2">
+        <span id="AtaqueS" > </span>   <br>
+        <span id="DefensaS"> </span>   <br>
+        <span id="Velocidad"> </span>     <br>
+        </div>
+    </div>
+    
+    <div class="blueButtons1">
+        <div class="blueButton"></div>
+        <div class="blueButton"></div>
+        <div class="blueButton"></div>
+        <div class="blueButton"></div>
+        <div class="blueButton"></div>
+    </div>
+    <div class="blueButtons2">
+        <div class="blueButton"></div>
+        <div class="blueButton"></div>
+        <div class="blueButton"></div>
+        <div class="blueButton"></div>
+        <div class="blueButton"></div>
+    </div>
+    <div class="miniButtonGlass4"></div>
+    <div class="miniButtonGlass5"></div>
+    <div class="barbutton3"></div>
+    <div class="barbutton4"></div>
+    <div class="yellowBox1" class="stats"><br>
+        <span id="type" class="stats"></span> <br> 
+        <span id="ID1"></span> <span id="ID" class="stats"></span> 
+        
+    </div>
+    <div class="yellowBox2" class="stats"><br>
+        <span id="height"></span> <br>
+        <span id="weight"></span>  
+    </div>
+    <div class="bg_curve1_derecha"></div>
+    <div class="bg_curve2_derecha"></div>
+    <div class="curve1_derecha"></div>
+    <div class="curve2_derecha"></div>
+</div>
+</div>
+</body>   
+<footer>
+    <script src="pokedex.js"></script>
+</footer>
+</html>

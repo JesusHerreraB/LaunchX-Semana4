@@ -11,9 +11,9 @@
   * Tipo de pokemón
   * Estadísticas
   * Movimientos
-*Bonus:
 
-*Bonus si tu página es responsive y se puede ver en celulares
-*Bonus de despliegue de tu pokedex
-*Bonus de uso de otras rutas como búsqueda por número de pokemón o mostrar un rango de pokemóns
-*Pueden usar los conocimientos vistos o usar diferentes herramientas que conozcan o que investiguen como las librerías de diseño o librerías de JS sin problemas.
+Bonus:
+* Bonus si tu página es responsive y se puede ver en celulares
+* Bonus de despliegue de tu pokedex
+* Bonus de uso de otras rutas como búsqueda por número de pokemón o mostrar un rango de pokemóns
+* Pueden usar los conocimientos vistos o usar diferentes herramientas que conozcan o que investiguen como las librerías de diseño o librerías de JS sin problemas.
